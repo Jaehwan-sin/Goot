@@ -32,6 +32,8 @@ public class GBBGame2 {
             System.out.println("컴퓨터가 바위를 냈습니다.");
         else if (com == 3)
             System.out.println("컴퓨터가 보자기를 냈습니다.");
+        
+        System.out.println("컴퓨터 : " + com);
 
         // 승패 경우의 수
         if ((user == 1 && com == 3) || (user == 2 && com == 1) || (user == 3 && com == 2))
