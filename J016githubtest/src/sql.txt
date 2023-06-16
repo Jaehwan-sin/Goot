@@ -1,0 +1,15 @@
+create table sizeinfo(
+이름 varchar2(30),
+성별 varchar2(30),
+색상 varchar2(30),
+사이즈 varchar2(30));
+
+delete from sizeinfo where 성별=?;
+
+insert into sizeinfo values('홍길동','남자','화이트','XL');
+
+select * from sizeinfo;
+
+Select 이름,성별,색상,사이즈 latest from sizeinfo;
+
+commit;
